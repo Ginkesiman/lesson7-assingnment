@@ -6,6 +6,6 @@ new_dict['birth_day'] = '2000/10/26'
 new_dict['school'] = {
     'highschool': 'Kobe City College of Technology',
     'university': 'Osaka'}
-new_dict['hobby'] = 'book'
+new_dict['hobby'] = 'book', 'movie'
 with open('data/self.json', 'w')as f:
     json.dump(new_dict, f, indent=2, ensure_ascii=False)

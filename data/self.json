@@ -5,5 +5,8 @@
     "highschool": "Kobe City College of Technology",
     "university": "Osaka"
   },
-  "hobby": "book"
+  "hobby": [
+    "book",
+    "movie"
+  ]
 }
